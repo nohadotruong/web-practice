@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+sqlalchemy>=2.0.0
+pydantic>=2.0.0
+python-dotenv
+psycopg2
+# Sử dụng psycopg2 nếu dùng PostgreSQL (hoặc aiomysql/asyncpg nếu dùng async)
