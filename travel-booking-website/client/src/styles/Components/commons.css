@@ -1,0 +1,114 @@
+/* ================= LIGHT THEME ================= */
+:root {
+  /* ================= Loading ================= */
+  --loading: #000;
+
+  /* ================= Scroll bar ================= */
+  --scrollbar-thumb: #f39c12;
+  --scrollbar-thumb-hover: #eec178;
+  --scrollbar-track: #e9edf2;
+
+  /* ================= Scroll to top button ================= */
+  --top-btn-bg: #f39c12;
+  --top-btn-fg: #ffffff;
+  --top-btn-bd: #d68910;
+  --top-btn-shadow: 0 2px 6px rgba(243, 156, 18, 0.25);
+
+  --top-btn-hover-bg: #d68910;
+  --top-btn-hover-fg: #ffffff;
+  --top-btn-hover-bd: #b9770e;
+  --top-btn-hover-shadow: 0 4px 10px
+    rgba(243, 156, 18, 0.35);
+}
+
+/* ================= DARK THEME ================= */
+.dark {
+  /* ================= Loading ================= */
+  --loading: #d5d8dc;
+
+  /* ================= Scroll bar ================= */
+  --scrollbar-thumb: #27ae60;
+  --scrollbar-thumb-hover: #2ecc71;
+  --scrollbar-track: #141814;
+
+  /* ================= Scroll to top button ================= */
+  --top-btn-bg: #27ae60;
+  --top-btn-fg: #ffffff;
+  --top-btn-bd: #1e8449;
+  --top-btn-shadow: 0 2px 6px rgba(39, 174, 96, 0.25);
+
+  --top-btn-hover-bg: #1e8449;
+  --top-btn-hover-fg: #ffffff;
+  --top-btn-hover-bd: #145a32;
+  --top-btn-hover-shadow: 0 4px 10px rgba(39, 174, 96, 0.35);
+}
+
+/* ================= Glass background ================= */
+.bg-glass {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* ================= Autofill input custom ================= */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  background-color: var(--auth-form-ip-bg) !important;
+  -webkit-box-shadow: 0 0 0px 1000px var(--auth-form-ip-bg)
+    inset !important;
+  -webkit-text-fill-color: var(
+    --auth-form-ip-fg
+  ) !important;
+  caret-color: var(--auth-form-ip-fg) !important;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+/* ================= Date input custom ================= */
+.dark
+  input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+/* ================= Scroll bar custom ================= */
+::-webkit-scrollbar,
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 999px;
+  transition: all 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* .scrollbar-hide::-webkit-scrollbar {
+  display: none;
+} */
+
+/* .scrollbar-hide {
+  -ms-overflow-style: none; /* IE, Edge 
+  scrollbar-width: none; /* Firefox 
+} */
+
+/* ================= Placeholder custom ================= */
+::placeholder {
+  color: #89949e;
+}
+
+.dark::placeholder {
+  color: #7f8a85;
+}

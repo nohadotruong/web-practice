@@ -1,0 +1,72 @@
+@import "tailwindcss";
+@import "./layout.css";
+@import "./form.css";
+
+* {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: var(--font-pirata);
+}
+
+h2 {
+  font-family: var(--font-grenze);
+}
+
+p {
+  font-family: var(--font-raleway);
+}
+
+:root {
+  --black-color: #000000;
+  --medium-black-color: #1d1d1d;
+  --light-black-color: #303030;
+
+  --dark-brown-color: #6e5343;
+  --medium-brown-color: #af9880;
+  --light-brown-color: #d7cab8;
+
+  --dark-gray-color: #a1a1a1;
+  --medium-gray-color: #dcdad9;
+  --light-gray-color: #eeeeee;
+
+  --white-color: #ffffff;
+}
+
+/* @theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+/* body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.bg-glass {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}

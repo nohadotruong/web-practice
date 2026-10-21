@@ -1,0 +1,147 @@
+* {
+  /* border: 1px solid red; */
+}
+
+.product-m-container {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-search,
+.product-filter,
+.product-m-option,
+.product-m-list {
+  max-width: 1220px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.product-search input {
+  width: 90%;
+  padding: 10px 15px;
+  border: 1px solid #444444;
+  background-color: #2a2a2a;
+  border-right: none;
+  color: #e0e0e0;
+  transition: border-color 0.3s ease;
+}
+
+.product-search input:focus {
+  border: 1px solid #ceff00;
+}
+
+.product-search button {
+  width: 10%;
+  padding: 10px;
+  border: 1px solid #ceff00;
+  background-color: #ceff00;
+  color: #1c1c1c;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.product-search button:hover {
+  background-color: #92ba00;
+}
+
+.product-m-option button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #ceff00;
+  color: #1c1c1c;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.product-m-option button:hover {
+  background-color: #92ba00;
+}
+
+.product-m-option form {
+  margin: 0;
+  background-color: #1c1c1c;
+  padding: 15px;
+  box-shadow: 3px 3px 14px black;
+}
+
+.product-m-option form div {
+  padding: 10px;
+}
+
+.product-m-option form div label {
+  text-transform: uppercase;
+  color: #ceff00;
+  margin-left: 5px;
+}
+
+.product-m-option form div input,
+.product-m-option form div select {
+  margin-top: 5px;
+  background-color: #2a2a2a;
+  padding: 5px 10px;
+  width: 100%;
+  border: 1px solid #444444;
+  color: #e0e0e0;
+  transition: border-color 0.3s ease;
+}
+
+.product-m-option form input:focus,
+.product-m-option form select:focus {
+  border: 1px solid #ceff00;
+}
+
+.product-m-option form div button#cancel-btn {
+  background-color: #444444;
+  color: #ceff00;
+}
+
+.product-m-option form div button#cancel-btn:hover {
+  background-color: #5a5a5a;
+  color: #ceff00;
+}
+
+.product-m-list {
+  background-color: #1c1c1c;
+  padding: 15px;
+  overflow: auto;
+}
+
+.product-m-list table {
+  min-width: 650px;
+}
+
+.product-m-list table thead th,
+.product-m-list table tbody td {
+  width: max-content;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.product-m-list table tbody td img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.product-m-list table tbody td button {
+  width: 100%;
+  border: none;
+  background-color: #00000000;
+  transition: color 0.3s ease;
+  color: #92ba00;
+}
+
+.product-m-list table tbody td button i {
+  font-size: 30px;
+}
+
+.product-m-list table tbody td button:hover {
+  color: #ceff00;
+}

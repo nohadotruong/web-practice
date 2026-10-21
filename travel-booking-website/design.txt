@@ -1,0 +1,59 @@
+Users:
+- Customer/Traveler
+- Admin/Staff (Business)
+
+Feature by user:
+- Customer:
+    Sign in / Sign up / Sign out
+    View tour list, search tours
+    View tour details (price, schedule, images)
+    Book a tour (select date, number of persons)
+    Check out (optional)
+    Booking management (view status: booked, accepted, cancelled)
+    Rate and comment on tours (optional)
+
+- Admin/Staff:
+    Manage tours (CRUD)
+    Manage bookings (view, accept, cancel)
+    Manage customers (information, booking history)
+    Manage website content (banners, news, welcome page) (optional)
+    Manage staff (CRUD)
+
+- Database:
+    + users:
+        id
+        username
+        pw
+        fullname
+        email
+        phone
+        role (Admin/Staff/Customer)
+    
+    + tours:
+        id
+        name
+        price
+        start_date
+        end_date
+        duration
+        location
+        description
+    
+    + tour_images:
+        id
+        tour_id
+        url
+    
+    + bookings:
+        id
+        user_id
+        tour_id
+        date
+        num_persons
+        payment_method
+        payment_status (pending, accepted, cancelled)
+
+    + schedule:
+        id
+        tour_id
+        detail

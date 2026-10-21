@@ -1,0 +1,7 @@
+.footer-bar {
+  display: flex;
+  font-size: 16px;
+  color: white;
+  background-color: #2b3643;
+  padding: 3px 20px;
+}

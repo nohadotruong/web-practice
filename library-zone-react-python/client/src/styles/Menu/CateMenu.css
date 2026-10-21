@@ -1,0 +1,19 @@
+:root {
+  --menu-blur-bg: #0000004e;
+  --menu-bg: #e1c461;
+
+  --menu-btn-bg: #edd995;
+  --menu-btn-fg: #21425d;
+
+  --menu-btn-hover-fg: #1d6eaf;
+  --menu-btn-active-fg: #122e45;
+
+  --menu-btn-hover-bg: #f5e4b0;
+  --menu-btn-active-bg: #ebb400;
+
+  --s-menu-bg: #fff;
+  --s-menu-fg: #21425d;
+
+  --s-menu-hover: #1a5586;
+  --s-menu-active: #122e45;
+}

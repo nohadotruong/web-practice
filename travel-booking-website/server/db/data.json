@@ -1,0 +1,70 @@
+[
+  {
+    "name": {
+      "vi": "Phú Quốc Relax Trip",
+      "en": "Phu Quoc Relax Trip"
+    },
+    "price": { "$numberInt": "2800000" },
+    "start_date": "2025-11-20",
+    "end_date": "2025-11-24",
+    "duration": {
+      "value": { "$numberInt": "5" },
+      "unit": { "vi": "ngày", "en": "days" }
+    },
+    "location": {
+      "vi": "Phú Quốc, Việt Nam",
+      "en": "Phu Quoc, Vietnam"
+    },
+    "description": {
+      "vi": "Kỳ nghỉ thư giãn tại đảo Phú Quốc, tắm biển, tham quan VinWonders và thưởng thức đặc sản địa phương.",
+      "en": "A relaxing vacation on Phu Quoc island, enjoy the beach, visit VinWonders, and taste local specialties."
+    },
+    "thumbnail": "https://res.cloudinary.com/da19rusyp/image/upload/v1756198207/i4kfm7v36vxsuxveejzd.jpg"
+  },
+
+  {
+    "name": {
+      "vi": "Sapa Trekking Adventure",
+      "en": "Sapa Trekking Adventure"
+    },
+    "price": { "$numberInt": "2200000" },
+    "start_date": "2025-10-10",
+    "end_date": "2025-10-14",
+    "duration": {
+      "value": { "$numberInt": "4" },
+      "unit": { "vi": "ngày", "en": "days" }
+    },
+    "location": {
+      "vi": "Lào Cai, Việt Nam",
+      "en": "Lao Cai, Vietnam"
+    },
+    "description": {
+      "vi": "Trải nghiệm trekking ở Sapa, chiêm ngưỡng ruộng bậc thang, tham quan bản làng và tìm hiểu văn hóa dân tộc thiểu số.",
+      "en": "Experience trekking in Sapa, admire terraced rice fields, visit villages, and discover ethnic minority culture."
+    },
+    "thumbnail": "https://res.cloudinary.com/da19rusyp/image/upload/v1756197913/utu83h5zhvv6gpo9dlwo.jpg"
+  },
+
+  {
+    "name": {
+      "vi": "Hạ Long Bay Cruise",
+      "en": "Ha Long Bay Cruise"
+    },
+    "price": { "$numberInt": "3500000" },
+    "start_date": "2025-09-01",
+    "end_date": "2025-09-05",
+    "duration": {
+      "value": { "$numberInt": "5" },
+      "unit": { "vi": "ngày", "en": "days" }
+    },
+    "location": {
+      "vi": "Quảng Ninh, Việt Nam",
+      "en": "Quang Ninh, Vietnam"
+    },
+    "description": {
+      "vi": "Khám phá vịnh Hạ Long với du thuyền sang trọng, thưởng thức hải sản và tham quan hang động nổi tiếng.",
+      "en": "Explore Ha Long Bay with a luxury cruise, enjoy seafood, and visit famous caves."
+    },
+    "thumbnail": "https://res.cloudinary.com/da19rusyp/image/upload/v1756196831/u3tphtzjqwx8xrrbmlnn.jpg"
+  }
+]

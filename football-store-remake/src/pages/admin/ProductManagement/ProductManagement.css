@@ -1,0 +1,148 @@
+* {
+  /* border: 1px solid black; */
+}
+
+.product-list__section div {
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  margin: 0px 5px;
+  background-color: white;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.product-list__section div h3 {
+  color: #003b73;
+}
+
+.product-list__section .add-product__button {
+  padding: 5px;
+  border: none;
+  background-color: #003b73;
+  color: white;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.product-list__section .add-product__button:hover {
+  background-color: rgb(19, 87, 212);
+}
+
+.product__table {
+  overflow: auto;
+  max-width: 1000px;
+  height: fit-content;
+}
+
+.product__table table {
+  min-width: 700px;
+  table-layout: fixed;
+}
+
+.product__table table thead tr th {
+  color: #003b73;
+}
+
+.product__table table tbody tr td {
+  vertical-align: middle;
+  color: #003b73;
+}
+
+.product__table table tbody tr td img {
+  width: 100%;
+}
+
+.product__table table tbody tr td button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: #003b73;
+}
+
+.edit-product__form {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.edit-product__form .form__header button {
+  border: 2px solid #003b73;
+  border-radius: 10px;
+  background-color: white;
+  color: #003b73;
+  padding: 0px 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 30px; */
+  transition: color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.edit-product__form .form__header button:hover {
+  border: 2px solid #e10600;
+  color: #e10600;
+}
+
+.edit-product__form div {
+  border: none;
+  width: 100%;
+  margin-bottom: 5px;
+  box-shadow: none;
+}
+
+.edit-product__form div label {
+  color: #003b73;
+  margin-left: 5px;
+  width: 0px;
+}
+
+.edit-product__form div input {
+  border: 1px solid #003b73;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 100%;
+  color: #003b73;
+  transition: border 0.3s ease;
+}
+
+.edit-product__form div input:focus {
+  border: 1px solid #e10600;
+}
+
+.edit-product__form .product-gallery img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+@media (max-width: 950px) {
+  .edit-product__form {
+    display: none;
+    flex-direction: column;
+    height: fit-content;
+  }
+}
+
+.edit-product__form .form__button button {
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-product__form .form__button .save__button {
+  background-color: rgb(0, 89, 233);
+}
+
+.edit-product__form .form__button .save__button:hover {
+  background-color: rgb(31, 113, 244);
+}
+
+.edit-product__form .form__button .delete__button {
+  background-color: red;
+}
+
+.edit-product__form .form__button .delete__button:hover {
+  background-color: rgb(169, 0, 0);
+}

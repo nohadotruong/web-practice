@@ -1,0 +1,13 @@
+:root {
+  --footer-bg: #1b354a;
+  --footer-fg: #e1c461;
+  --footer-bd: #e1c461;
+
+  --footer-link: #e1c461;
+  --footer-link-hover: #ffffff;
+  --footer-link-active: #d4b751;
+
+  --footer-link-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --footer-link-hover-shadow: 0 2px 4px
+    rgba(255, 255, 255, 0.4);
+}

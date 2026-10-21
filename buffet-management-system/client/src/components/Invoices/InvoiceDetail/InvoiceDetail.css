@@ -1,0 +1,14 @@
+.payment-detail__section {
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.detail__section {
+  overflow-x: auto;
+}
+
+.detail__section table {
+  min-width: 400px;
+}

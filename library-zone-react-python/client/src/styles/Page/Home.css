@@ -1,0 +1,38 @@
+:root {
+  --home-bg: #fff;
+  --home-fg: #21425d;
+  --home-bd: #e1c461;
+  --home-fg-hover: #2a7abb;
+  --home-fg-active: #033055;
+
+  --home-scroll-bg: #fff;
+  --home-scroll-fg: #21425d;
+  --home-scroll-hover-fg: #2a7abb;
+
+  --home-btn-bg: #e1c461;
+  --home-btn-fg: #21425d;
+  --home-btn-bd: #21425d;
+
+  --home-btn-hover-bg: #f4d982;
+
+  --home-btn-active-bg: #e1c461;
+}
+
+.home-scroll-bar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.home-scroll-bar::-webkit-scrollbar-track {
+  background: var(--home-scroll-bg);
+}
+
+.home-scroll-bar::-webkit-scrollbar-thumb {
+  background: var(--home-scroll-fg);
+  border-radius: 999px;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-scroll-bar::-webkit-scrollbar-thumb:hover {
+  background: var(--home-scroll-hover-fg);
+}

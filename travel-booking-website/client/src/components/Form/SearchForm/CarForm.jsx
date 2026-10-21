@@ -1,0 +1,129 @@
+import React, { useState } from "react";
+
+export default function CarForm({ t }) {
+  const [formData, setFormData] = useState({
+    location: "",
+    date: "",
+  });
+
+  const searchInput = [
+    {
+      label: t("searchbar.pickuplocation"),
+      type: "text",
+      name: "location",
+      value: formData.location,
+    },
+    {
+      label: t("searchbar.startdate"),
+      type: "date",
+      name: "start_date",
+      value: formData.start_date,
+    },
+  ];
+
+  function handleChange(e) {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  }
+
+  return (
+    <div className="w-full">
+      <form
+        action=""
+        className="w-full flex flex-col gap-3"
+      >
+        <p
+          className="text-center text-[var(--slogan)]
+          text-[25px] sm:text-[30px] font-[500]"
+        >
+          {t("searchbar.carslogan")}
+        </p>
+
+        <div className="flex flex-col sm:grid sm:grid-cols-4 items-end gap-2">
+          {searchInput.map((item, index) => (
+            <div
+              key={index}
+              className={`flex flex-col w-full ${
+                item.type === "text"
+                  ? "col-span-2"
+                  : "col-span-1"
+              }`}
+            >
+              <label
+                htmlFor=""
+                className="font-[500] px-1 text-nowrap"
+              >
+                {item.label}
+              </label>
+
+              <div className="w-full relative">
+                <input
+                  type={item.type}
+                  className={`bg-[var(--form-ip-bg)] 
+                  border-[var(--form-ip-bd)] border-1 rounded-lg 
+                  focus:bg-[var(--form-ip-focus-bg)]
+                  focus:border-[var(--form-ip-focus-bd)]
+                  p-2 w-full ${
+                    item.type === "text" && "pe-[50px]"
+                  }`}
+                  name={item.name}
+                  value={item.value}
+                  onChange={handleChange}
+                  placeholder={
+                    item.type === "text"
+                      ? t("searchbar.pickupplaceholder")
+                      : ""
+                  }
+                />
+                {item.value !== "" &&
+                  item.type === "text" && (
+                    <div
+                      className="absolute right-[7px] top-0 bottom-0
+                      flex justify-center items-center gap-1"
+                    >
+                      <button
+                        tabIndex={1000}
+                        type="button"
+                        onClick={() => {
+                          setFormData({
+                            ...formData,
+                            [item.name]: "",
+                          });
+                        }}
+                      >
+                        <i className="bi bi-x-lg"></i>
+                      </button>
+                    </div>
+                  )}
+              </div>
+            </div>
+          ))}
+
+          <button
+            type="submit"
+            className={`bg-[var(--form-btn-primary-bg)]
+              text-[var(--form-btn-primary-fg)] text-[18px]
+              hover:bg-[var(--form-btn-primary-hover-bg)]
+              hover:shadow-[var(--form-btn-primary-hover-shadow)]
+              active:bg-[var(--form-btn-primary-active-bg)]
+              active:shadow-[var(--form-btn-primary-active-shadow)]
+              focus-visible:bg-[var(--form-btn-primary-hover-bg)]
+              focus-visible:shadow-[var(--form-btn-primary-hover-shadow)]
+              disabled:bg-[var(--form-btn-disable-bg)]
+              disabled:text-[var(--form-btn-disable-fg)]
+              disabled:shadow-none w-full text-nowrap
+              col-span-1 px-3 py-2 rounded-xl cursor-pointer
+              transition-all duration-300 ease-in-out`}
+            disabled={Object.values(formData).every(
+              (val) => val === ""
+            )}
+          >
+            {t("searchbar.search")}
+          </button>
+        </div>
+      </form>
+    </div>
+  );
+}

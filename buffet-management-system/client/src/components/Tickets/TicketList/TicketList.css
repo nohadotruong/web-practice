@@ -1,0 +1,22 @@
+.ticket-list__container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* border-top-right-radius: 10px; */
+}
+
+.ticket-list__section {
+  overflow: auto;
+}
+
+.ticket-list {
+  min-width: 400px;
+}
+
+.ticket-list__section .ticket-list tbody tr td button {
+  margin: 2px;
+}

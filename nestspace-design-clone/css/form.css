@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-size: 18px;
+  /* border: 1px solid red; */
+}
+
+.form__container {
+  height: 100vh;
+  background-color: #eeeeee;
+  overflow: hidden;
+}
+
+.form__section {
+  max-height: 90vh;
+  max-width: 400px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  overflow-y: auto;
+  box-shadow: 0px 5px 10px 5px #00000020;
+}
+
+.input__section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.input__section input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.input__section i {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox__section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.checkbox__section input {
+  font-size: large;
+}
+
+hr {
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  text-align: right;
+}

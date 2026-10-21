@@ -1,0 +1,9 @@
+:root {
+  /* Scroll to top button */
+  --top-btn-bg: #e1c461;
+  --top-btn-fg: #21425d;
+  --top-btn-bd: #21425d;
+
+  --top-btn-hover-bg: #f4d982;
+  --top-btn-active-bg: #bfa14d;
+}

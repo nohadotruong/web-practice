@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 16px;
+}
+
+:root {
+  --fg: #fffaf0;
+  --bg: #f5deb3; /* Màu nền chính - be sáng */
+  --bg2: #c4a484; /* Màu nền phụ - trắng kem nhẹ */
+  --bg_opacity: #f5deb380; /* Màu nền chính - be sáng */
+  --text: #3b2f2f; /* Màu chữ chính - nâu than */
+  --text_hover: #8b0000; /* Màu chữ khi hover - đỏ rượu */
+  --button: #d35400; /* Màu nút chính - đỏ cam rực */
+  --button_text: #ffffff; /* Màu chữ trong nút - trắng */
+  --button_hover: #8b0000; /* Màu nút khi hover - đỏ rượu vang */
+  --button_text_hover: #f5deb3; /* Màu chữ nút khi hover - be sáng */
+  /* Input mặc định */
+  --input_bd: #c4a484; /* Viền input ban đầu - nâu nhạt */
+  --input_bg: #fffaf0; /* Nền input - trắng kem nhạt */
+  --input_text: #3b2f2f; /* Màu chữ trong input - nâu than */
+
+  /* Input khi focus */
+  --input_bd_focus: #8b0000; /* Viền khi focus - đỏ rượu vang */
+  --input_bg_focus: #fdf5e6; /* Nền khi focus - sáng hơn nhẹ */
+
+  background-color: var(--bg);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
+}

@@ -1,0 +1,40 @@
+* {
+  /* border: 1px solid black; */
+}
+
+.header__container {
+  background-color: var(--bg2);
+  color: var(--text);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+}
+
+.user__section {
+  display: flex;
+  align-items: center;
+}
+
+.user__section img {
+  height: 50px;
+}
+
+.header-button__section {
+  display: flex;
+}
+
+.header-button__section button {
+  background-color: var(--bg2);
+  border: 1px solid var(--text);
+  padding: 5px 10px;
+  color: var(--text);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.header-button__section button:hover {
+  background-color: var(--bg);
+}

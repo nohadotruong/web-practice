@@ -1,0 +1,26 @@
+* {
+  /* border: 1px solid black; */
+}
+
+.account-menu__container {
+  position: absolute;
+  right: 0px;
+  top: 100%;
+  z-index: 998;
+  display: flex;
+  width: max-content;
+  border-top: 3px solid #ceff00;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.account-menu__button {
+  border: none;
+  background-color: #2c2c2c;
+  color: #6a8500;
+  transition: color 0.3 ease;
+  padding: 5px 15px;
+}
+
+.account-menu__button:hover {
+  color: #ceff00;
+}

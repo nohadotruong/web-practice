@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>NestSpace 巢空間室內設計</title>
+
+    <link
+      rel="shortcut icon"
+      href="https://images.squarespace-cdn.com/content/v1/6014f6d17afdae55ced84a12/1612070516488-6EEOZLPWLFY3703BAA3O/favicon.ico?format=100w"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <a
+      class="scroll__btn"
+      id="scroll__btn"
+      tabindex="0"
+      href="#"
+      >Skip to Content</a
+    >
+
+    <header
+      id="header__container"
+      class="header__container d-flex justify-content-center align-items-center px-5"
+    >
+      <nav
+        class="nav-menu col-lg-4 d-none d-lg-flex flex-wrap"
+      >
+        <a
+          class="mx-2"
+          href="https://www.nestspacedesign.com/about"
+          >About</a
+        >
+        <a
+          class="mx-2"
+          href="https://www.nestspacedesign.com/contact"
+          >Contact</a
+        >
+        <a
+          class="mx-2"
+          href="https://www.nestspacedesign.com/press-release"
+          >Press</a
+        >
+        <a
+          class="mx-2"
+          href="https://www.nestspacedesign.com/portfolio"
+          >Portfolio</a
+        >
+        <a
+          class="mx-2"
+          href="https://www.nestspacedesign.com/3dimpression"
+          >Impression</a
+        >
+      </nav>
+
+      <button
+        class="open-menu__btn d-lg-none"
+        onclick="toggleMenu()"
+      >
+        <i class="bi bi-list"></i>
+      </button>
+
+      <a
+        href="index.html"
+        class="logo col-lg-4 col-10 d-flex justify-content-center align-items-center"
+      >
+        <img
+          class="logo__img"
+          src="https://images.squarespace-cdn.com/content/v1/6014f6d17afdae55ced84a12/630c37df-ea06-45dc-8682-942af66355cc/nestspace+logo+bk.png?format=1500w"
+          alt=""
+        />
+      </a>
+
+      <nav
+        class="col-lg-4 d-none d-lg-flex align-items-center justify-content-end gap-3"
+      >
+        <p id="account-info" class="mb-0"></p>
+        <a href="https://www.facebook.com/nestspace.design"
+          ><i class="bi bi-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/nestspacedesign/"
+          ><i class="bi bi-instagram"></i
+        ></a>
+        <a
+          id="signup-btn"
+          href="pages/signIn.html"
+          title="Sign in/Sign up"
+          ><i class="bi bi-person-fill"></i
+        ></a>
+        <a
+          id="signout-btn"
+          href=""
+          onclick="handleSignOut()"
+          title="Sign out"
+          ><i class="bi bi-box-arrow-right"></i
+        ></a>
+      </nav>
+    </header>
+
+    <nav
+      id="sub-menu"
+      class="sub-menu d-lg-none d-flex flex-column align-items-center"
+    >
+      <div
+        class="position-fixed w-100 d-flex align-items-center justify-content-center py-3"
+      >
+        <button
+          class="close-menu__btn d-lg-none d-flex justify-content-center align-items-center"
+          onclick="toggleMenu()"
+        >
+          <i class="bi bi-x-lg"></i>
+        </button>
+
+        <a href="index.html" class="col-lg-4">
+          <img
+            class="logo__img"
+            src="https://images.squarespace-cdn.com/content/v1/6014f6d17afdae55ced84a12/630c37df-ea06-45dc-8682-942af66355cc/nestspace+logo+bk.png?format=1500w"
+            alt=""
+          />
+        </a>
+      </div>
+
+      <div
+        class="sub-menu__content d-flex flex-column gap-3 align-items-center m-auto"
+      >
+        <h1 id="account2-info" class="m-0"></h1>
+
+        <a href="https://www.nestspacedesign.com/about"
+          >About</a
+        >
+        <a href="https://www.nestspacedesign.com/contact"
+          >Contact</a
+        >
+        <a
+          href="https://www.nestspacedesign.com/press-release"
+          >Press</a
+        >
+        <a href="https://www.nestspacedesign.com/portfolio"
+          >Portfolio</a
+        >
+
+        <a
+          href="https://www.nestspacedesign.com/3dimpression"
+          >Impression</a
+        >
+
+        <a id="signup2-btn" href="pages/signIn.html"
+          >Sign In/Sign Up</a
+        >
+
+        <div class="d-flex gap-2">
+          <a
+            href="https://www.facebook.com/nestspace.design"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/nestspacedesign/"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </div>
+
+        <a
+          id="signout2-btn"
+          href="#"
+          onclick="handleSignOut()"
+          >Sign Out</a
+        >
+      </div>
+    </nav>
+
+    <section class="w-100">
+      <div
+        id="carouselExampleRide"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.squarespace-cdn.com/content/6014f6d17afdae55ced84a12/1726025083098-D9KTE6A6H88N8EOGB544/NestSpaceDesign_transition_socialimage.jpg?format=1500w&content-type=image%2Fjpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <button class="slide-link__btn">
+              Transitions | More
+            </button>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.squarespace-cdn.com/content/6014f6d17afdae55ced84a12/1715510838246-9947CWMK4UA61OWNV8PI/30-socialimg-Nestspace-Portfolio-coverS-Continuum.jpg?format=1500w&content-type=image%2Fjpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <button class="slide-link__btn">
+              <a
+                href="https://www.nestspacedesign.com/portfolio/continuum"
+              >
+                Continuum | More
+              </a>
+            </button>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/6014f6d17afdae55ced84a12/a277ef4d-dcd5-4ab1-b850-1333411bf1c7/432Hz-NestSpaceDesign%E5%B7%A2%E7%A9%BA%E9%96%93_cover_02.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <button class="slide-link__btn">
+              <a
+                href="https://www.nestspacedesign.com/portfolio/432hz"
+              >
+                432 Hz | More
+              </a>
+            </button>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.squarespace-cdn.com/content/6014f6d17afdae55ced84a12/1739282930711-07PH2NLD7B7CVI52UN5Y/NESTSPACEDESIGN-cover-1201.jpg?format=1500w&content-type=image%2Fjpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <button class="slide-link__btn">
+              <a
+                href="https://www.nestspacedesign.com/portfolio/ignotus"
+              >
+                IGNOTUS | More
+              </a>
+            </button>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/6014f6d17afdae55ced84a12/c70abddc-a319-43e7-85b0-ac9b51efad89/cover-10.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <button class="slide-link__btn">
+              <a
+                href="https://www.nestspacedesign.com/portfolio/duet-apartment"
+              >
+                Duet Apartment | More
+              </a>
+            </button>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.squarespace-cdn.com/content/6014f6d17afdae55ced84a12/6a8c7b2b-8cf3-4188-8012-02eae1d29aca/Nestspacedesign-FeatheredHaven-thumbnail.jpg?content-type=image%2Fjpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <button class="slide-link__btn">
+              <a
+                href="https://www.nestspacedesign.com/portfolio/feathered-haven"
+                >Feathered Haven | More</a
+              >
+            </button>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.squarespace-cdn.com/content/6014f6d17afdae55ced84a12/d8491af5-a30b-4185-bfd1-3ba80cd33e51/Savour-NestSpaceDesign%E5%B7%A2%E7%A9%BA%E9%96%93_portfolio_cover-1.jpg?format=1500w&content-type=image%2Fjpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <button class="slide-link__btn">
+              <a
+                href="https://www.nestspacedesign.com/portfolio/savour"
+              >
+                SAVOUR | More
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev custom-control"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="prev"
+        >
+          <i class="bi bi-arrow-left"></i>
+        </button>
+
+        <button
+          class="carousel-control-next custom-control"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="next"
+        >
+          <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <section class="paragraph__section">
+      <h3>Crafting Soulful Spaces and Embrace Diversity</h3>
+      <p>
+        Life has no standard answer; the same is valid for
+        spatial design. NestSpace Design, a Taipei-based
+        interior studio, believes there are no fixed
+        solutions in design. Instead, we are driven by a
+        commitment to sustainability and a resolve to create
+        unique architectural narratives with every
+        renovation journey. We continuously push the
+        boundaries of innovation to provide bespoke and
+        beautiful outcomes that benefit our clients and the
+        environment. Our approach goes beyond creating new
+        places. To us, a passionate set is life itself, and
+        a house with a soul is the true definition of home.
+      </p>
+    </section>
+
+    <section class="project__section">
+      <div
+        class="text-center w-100 d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3"
+      >
+        <hr class="flex-1 w-100" />
+        <i style="font-weight: 600; width: 400px"
+          >Selected Projects</i
+        >
+        <hr class="flex-1 w-100" />
+      </div>
+
+      <div class="project__item" id="project__1">
+        <div class="project__image">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/6014f6d17afdae55ced84a12/50d4e607-0296-44ce-812d-006c48a866f8/NestSpaceDesign_eternity-01.jpg?format=2500w"
+            alt=""
+          />
+        </div>
+
+        <div class="project__title">
+          <h4>Eternity / 1 of 3</h4>
+          <p>Open the graceful scenery of the space</p>
+          <button>
+            <a
+              href="https://www.nestspacedesign.com/portfolio/eternity"
+            >
+              See More
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <div class="project__item" id="project__2">
+        <div class="project__image">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/6014f6d17afdae55ced84a12/cc11d19e-4b11-4475-9947-3e8155d259ae/NestSpaceDesign_revival-01.jpg?format=2500w"
+            alt=""
+          />
+        </div>
+
+        <div class="project__title">
+          <h4>Revival House / 2 of 3</h4>
+          <p>
+            An unconventional dwelling dedicated to dancing
+          </p>
+          <button>
+            <a
+              href="https://www.nestspacedesign.com/portfolio/revival-house-echo-of-the-body"
+            >
+              See More
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <div class="project__item" id="project__3">
+        <div class="project__image">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/6014f6d17afdae55ced84a12/3b8f8143-064b-4ad0-8d39-40297e598764/NestSpaceDesign_jardin-01.jpg?format=2500w"
+            alt=""
+          />
+        </div>
+
+        <div class="project__title">
+          <h4>Jardín del Sol / 3 of 3</h4>
+          <p>
+            Combining the idea of a sun-filled greenhouse
+            with the wfh conditions
+          </p>
+          <button>
+            <a
+              href="https://www.nestspacedesign.com/portfolio/jardin-del-sol"
+            >
+              See More
+            </a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="view-all__link text-center">
+      <a href="https://www.nestspacedesign.com/portfolio"
+        >View All Projects</a
+      >
+    </section>
+
+    <section class="contact__section">
+      <div class="contact__bg w-100">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/6014f6d17afdae55ced84a12/f0d7ab57-4592-4a6e-ac70-6db37117f5b8/cover-0512-1.jpg"
+        />
+      </div>
+
+      <div class="contact__fg w-100">
+        <h2>Tailoring a Next Space</h2>
+        <button>
+          <a href="https://www.nestspacedesign.com/contact"
+            >Contact Us</a
+          >
+        </button>
+      </div>
+    </section>
+
+    <footer
+      class="d-flex flex-column justify-content-center align-items-center pt-4 pb-1 px-3 gap-3"
+    >
+      <nav
+        class="d-flex flex-wrap gap-2 justify-content-center align-items-center"
+      >
+        <a
+          class="mx-2"
+          href="https://www.nestspacedesign.com/about"
+          >About</a
+        >
+        <a
+          class="mx-2"
+          href="https://www.nestspacedesign.com/contact"
+          >Contact</a
+        >
+        <a
+          class="mx-2"
+          href="https://www.nestspacedesign.com/portfolio"
+          >Portfolio</a
+        >
+        <a
+          class="mx-2"
+          href="https://www.facebook.com/nestspace.design"
+          >Facebook</a
+        >
+        <a
+          class="mx-2"
+          href="https://www.instagram.com/nestspacedesign/"
+          >Instagram</a
+        >
+      </nav>
+
+      <p class="m-0 p-0" style="font-size: 15px">
+        &copy; NestSpace Design 2024
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

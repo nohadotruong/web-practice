@@ -1,0 +1,15 @@
+/* ================= LIGHT THEME ================= */
+:root {
+  --profile-bg: #fff;
+  --profile-fg: #1a2e40;
+  --profile-bd: #d9dde2;
+  --profile-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* ================= DARK THEME ================= */
+.dark {
+  --profile-bg: #1e241e;
+  --profile-fg: #d5d8dc;
+  --profile-bd: #2a322a;
+  --profile-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}

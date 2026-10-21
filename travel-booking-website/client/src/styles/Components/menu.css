@@ -1,0 +1,33 @@
+/* ================= LIGHT THEME ================= */
+:root {
+  /* ================= Side Menu ================= */
+  --side-menu-bg: #ffffff;
+  --side-menu-fg: #1a2e40;
+  --side-menu-bd: #dfe4ea;
+  --side-menu-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  --side-menu-btn-bg: #ffffff;
+  --side-menu-btn-fg: #1a2e40;
+  --side-menu-btn-bd: #dfe4ea;
+
+  --side-menu-btn-hover-bg: #f39c12;
+  --side-menu-btn-hover-fg: #1a2e40;
+  --side-menu-btn-hover-bd: #f39c12;
+}
+
+/* ================= DARK THEME ================= */
+.dark {
+  /* ================= Side Menu ================= */
+  --side-menu-bg: #232f23;
+  --side-menu-fg: #d5d8dc;
+  --side-menu-bd: #3c4b3c;
+  --side-menu-shadow: 0 4px 12px rgba(35, 47, 35, 0.8);
+
+  --side-menu-btn-bg: #2e3c2e;
+  --side-menu-btn-fg: #d5d8dc;
+  --side-menu-btn-bd: #3c4b3c;
+
+  --side-menu-btn-hover-bg: #27ae60;
+  --side-menu-btn-hover-fg: #ffffff;
+  --side-menu-btn-hover-bd: #2ecc71;
+}

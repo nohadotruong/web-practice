@@ -1,0 +1,22 @@
+@import "./styles/font.css";
+@import "./styles/commons.css";
+@import "tailwindcss";
+
+@import "./styles/Layout/Header.css";
+@import "./styles/Layout/Body.css";
+@import "./styles/Layout/Footer.css";
+
+@import "./styles/Menu/CateMenu.css";
+
+@import "./styles/Page/Home.css";
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  /* border: 1px solid red; */
+}
+
+:root {
+  --blue-logo: #21425d;
+  --yellow-logo: #e1c461;
+}

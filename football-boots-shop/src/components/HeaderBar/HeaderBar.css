@@ -1,0 +1,199 @@
+* {
+  /* border: 1px solid white; */
+}
+
+.header-container {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c1c1c;
+  position: relative;
+}
+
+.header-left,
+.header-right {
+  height: 100%;
+  display: flex;
+}
+
+.header-container div button {
+  height: 100%;
+  padding: 5px 15px;
+  border: none;
+  color: #ceff00;
+  background-color: #1c1c1c;
+  transition: background-color 0.3s ease;
+}
+
+.header-container div button:hover {
+  color: #1c1c1c;
+  background-color: #ceff00;
+}
+
+.header-container div button i {
+  font-size: 25px;
+}
+
+.header-center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-center img {
+  height: 100%;
+  cursor: pointer;
+}
+
+.category-bar,
+.account-bar {
+  position: relative;
+}
+
+.category-bar .category-menu {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  top: 10vh;
+  left: 0px;
+  z-index: 9999;
+  background-color: white;
+  width: 300px;
+  box-shadow: 5px 5px 14px black;
+}
+
+.category-bar .category-menu button {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  padding: 5px 10px;
+  width: 100%;
+  background-color: white;
+  color: #1c1c1c;
+  transition: background-color 0.3s ease;
+}
+
+.category-bar .category-menu button:hover {
+  background-color: #e6ff81;
+}
+
+.category-bar .category-menu button i.bi-chevron-up {
+  display: none;
+}
+
+.sm-category-menu .sm-menu {
+  background-color: #1c1c1c;
+  padding: 5px 0px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.sm-category-menu .sm-menu button {
+  background-color: #1c1c1c;
+  color: #8db100;
+  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sm-category-menu .sm-menu button:hover {
+  background-color: #1c1c1c;
+  color: #ceff00;
+  transform: translateY(-5px);
+}
+
+.account-menu {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  top: 10vh;
+  right: 0px;
+  z-index: 9999;
+  background-color: white;
+  width: max-content;
+  box-shadow: 5px 5px 14px black;
+}
+
+.account-menu div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.account-menu div button {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  width: 100%;
+  background-color: white;
+  color: #1c1c1c;
+}
+
+.account-menu div button:hover {
+  background-color: #e6ff81;
+}
+
+.header-container .search-bar {
+  position: absolute;
+  z-index: 999;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c1c1cbf;
+}
+
+.header-container .search-bar input {
+  padding: 10px 15px;
+  border: 1px solid #444444;
+  border-right: none;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  height: 70%;
+}
+
+.header-container .search-bar input::placeholder {
+  color: #888888;
+}
+
+.header-container .search-bar input:focus {
+  border: 1px solid #ceff00;
+}
+
+.header-container .search-bar button {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #ceff00;
+  border: 1px solid #ceff00;
+  color: #1c1c1c;
+  height: 70%;
+}
+
+.header-container .search-bar button:hover {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #92ba00;
+  color: #1c1c1c;
+}
+
+.header-container .search-bar .cancel-btn {
+  background-color: #888888;
+  border: 1px solid #888888;
+  color: white;
+}
+
+.header-container .search-bar .cancel-btn:hover {
+  background-color: #565656;
+  color: white;
+}

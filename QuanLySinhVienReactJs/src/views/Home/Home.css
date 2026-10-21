@@ -1,0 +1,21 @@
+.home-btn {
+  height: 150px;
+  background-color: #0071c6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.2s ease, backgroud-color 0.3s ease;
+}
+
+.home-btn p {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.home-btn:hover {
+  background-color: #005fa7;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
