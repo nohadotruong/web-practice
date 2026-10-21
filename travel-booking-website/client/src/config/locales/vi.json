@@ -1,0 +1,123 @@
+{
+  "commons": {
+    "loading": "Đang tải...",
+    "totop": "Lên đầu trang"
+  },
+
+  "authform": {
+    "return": "Quay về trang chủ",
+    "welcometo": "Chào mừng đến với",
+    "welcomeback": "Chào mừng quay lại",
+    "email": "Email",
+    "username": "Tên người dùng",
+    "fullname": "Họ và tên",
+    "phone": "Số điện thoại",
+    "password": "Mật khẩu",
+    "confirm": "Xác nhận mật khẩu",
+    "forgot": "Quên mật khẩu?",
+    "signup": "Đăng ký",
+    "signin": "Đăng nhập",
+    "already": "Đã có tài khoản?",
+    "noaccount": "Chưa có tài khoản?",
+    "or": "hoặc đăng nhập với",
+    "google": "Đăng nhập bằng Google",
+    "facebook": "Đăng nhập bằng Facebook"
+  },
+
+  "header": {
+    "signup": "Đăng ký",
+    "signin": "Đăng nhập",
+    "account": "Quản lý tài khoản",
+    "settings": "Cài đặt"
+  },
+
+  "accountmenu": {
+    "account": "Tài khoản",
+    "signup": "Đăng ký",
+    "signin": "Đăng nhập",
+    "tours": "Tour",
+    "saved": "Đã lưu",
+    "booking": "Đã đặt",
+    "accountmanage": "Quản lý tài khoản",
+    "profile": "Thông tin cá nhân",
+    "security": "Cài đặt bảo mật",
+    "signout": "Đăng xuất",
+    "close": "Đóng"
+  },
+
+  "sidemenu": {
+    "category": "Danh mục",
+    "home": "Trang chủ",
+    "tour": "Tour du lịch",
+    "stay": "Lưu trú",
+    "airplane": "Chuyến bay",
+    "car": "Thuê xe",
+    "activity": "Hoạt động",
+    "settings": "Cài đặt",
+    "language": "English",
+    "theme": "Đổi nền",
+    "info": "Thông tin",
+    "about": "Về TripGo",
+    "privacy": "Bảo mật & Cookie",
+    "term": "Điều khoản và điều kiện",
+    "close": "Đóng"
+  },
+
+  "searchbar": {
+    "allslogan": "Tìm kiếm, lên kế hoạch, cùng TripGO!",
+    "tourslogan": "Khám phá cùng TripGO!",
+    "stayslogan": "Lưu trú thoải mái cùng TripGO!",
+    "airplaneslogan": "Bay cùng TripGO!",
+    "carslogan": "Tự do di chuyển cùng TripGO!",
+    "activityslogan": "Trải nghiệm nhiều hơn với TripGO!",
+
+    "alllocation": "Bạn muốn đi đâu?",
+    "tourlocation": "Bạn muốn khám phá điểm đến nào?",
+    "staylocation": "Bạn muốn lưu trú ở đâu?",
+    "activitylocation": "Bạn muốn tham gia hoạt động ở đâu?",
+    "pickuplocation": "Bạn sẽ nhận xe ở đâu?",
+    "from": "Đi từ",
+    "to": "Đến",
+
+    "checkin": "Ngày nhận phòng",
+    "checkout": "Ngày trả phòng",
+    "pickupdate": "Ngày nhận xe",
+    "date": "Ngày",
+    "departuredate": "Ngày đi",
+    "returndate": "Ngày về",
+    "startdate": "Ngày bắt đầu",
+    "enddate": "Ngày kết thúc",
+
+    "allplaceholder": "VD: Hà Nội, Việt Nam",
+    "tourplaceholder": "VD: Vịnh Hạ Long",
+    "stayplaceholder": "VD: Đà Nẵng, Việt Nam",
+    "activityplaceholder": "VD: Thành phố Hồ Chí Minh",
+    "pickupplaceholder": "VD: Sân bay Tân Sơn Nhất",
+    "fromplaceholder": "VD: Hà Nội",
+    "toplaceholder": "VD: Bangkok",
+
+    "search": "Tìm kiếm",
+    "or": "Hoặc tìm kiếm theo danh mục",
+    "all": "Tất cả",
+    "tour": "Tour du lịch",
+    "stay": "Lưu trú",
+    "airplane": "Chuyến bay",
+    "car": "Thuê xe",
+    "activity": "Hoạt động"
+  },
+
+  "profile": {
+    "email": "Email",
+    "username": "Tên người dùng",
+    "fullname": "Họ và tên",
+    "phone": "Số điện thoại",
+    "password": "Mật khẩu",
+    "confirm": "Xác nhận mật khẩu",
+    "forgot": "Quên mật khẩu?",
+    "edit": "Sửa thông tin",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "changepassword": "Đổi mật khẩu",
+    "deleteaccount": "Xóa tài khoản"
+  }
+}

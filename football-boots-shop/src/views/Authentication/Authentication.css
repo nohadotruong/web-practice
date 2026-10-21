@@ -1,0 +1,129 @@
+* {
+  /* border: 1px solid white; */
+}
+
+.auth-container {
+  width: 100%;
+  min-height: 80vh;
+  background-image: url("../../assets/ShopLogo/LoginImg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.auth-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* lớp phủ tối */
+  z-index: 0;
+}
+
+.auth-form {
+  margin: 30px;
+  background-color: #1c1c1c;
+  min-width: 320px;
+  width: fit-content;
+  /* max-width: 425px; */
+  padding: 20px;
+  color: #ceff00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 14px black;
+  z-index: 999;
+}
+
+.auth-form form {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.auth-form form div {
+  margin-bottom: 10px;
+}
+
+.auth-form form label {
+  margin-left: 5px;
+}
+
+.auth-form form input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border: 1px solid #444444;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  transition: border-color 0.3s ease;
+}
+
+.auth-form form .invalid-feedback {
+  font-size: 16px;
+  color: rgb(255, 113, 113);
+  display: flex;
+  justify-content: end;
+  padding-right: 5px;
+}
+
+.auth-form form input:focus {
+  width: 100%;
+  border: 1px solid #ceff00;
+}
+
+.auth-form form button {
+  width: 100%;
+  padding: 5px;
+  background-color: #ceff00;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: none;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-form form button:hover {
+  width: 100%;
+  padding: 5px;
+  background-color: #e7ff86;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.auth-form form .social-auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.auth-form form .social-auth button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1c1c1c;
+  font-size: 30px;
+  margin: 0px 10px;
+  width: fit-content;
+  color: #668000;
+  padding: 0;
+}
+
+.auth-form form .social-auth button i {
+  font-size: 25px;
+}
+
+.auth-form form .social-auth button:hover {
+  color: #ceff00;
+}
+
+#sign-up-form {
+  display: none;
+}

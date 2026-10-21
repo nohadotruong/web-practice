@@ -1,0 +1,23 @@
+:root {
+  --header-bg: #21425d;
+  --header-fg: #e1c461;
+  --header-bd: #e1c461;
+
+  --header-btn-bg: #1a3952;
+  --header-btn-fg: #e1c461;
+
+  --header-btn-hover-bg: #2b5e8a;
+  --header-btn-active-bg: #102c44;
+
+  --header-ip-bg: #102c44;
+  --header-ip-fg: #e1c461;
+
+  --header-ip-hover-bg: #;
+  --header-ip-active-bg: #;
+
+  --header-ip-focus-active-bg: #;
+  --header-ip-focus-active-bg: #;
+
+  --header-ip-focus-bg: #ffeeb8;
+  --header-ip-focus-fg: #21425d;
+}

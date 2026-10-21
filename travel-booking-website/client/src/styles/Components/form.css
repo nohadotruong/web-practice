@@ -1,0 +1,154 @@
+/* ================= LIGHT THEME ================= */
+:root {
+  /* ===== Base ===== */
+  --form-bg: #fff;
+  --form-fg: #1a2e40;
+  --form-bd: #dfe4ea;
+  --form-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  /* ===== Buttons ===== */
+  --form-btn-primary-bg: #f39c12;
+  --form-btn-primary-fg: #fff;
+  --form-btn-primary-shadow: 0 2px 6px
+    rgba(243, 156, 18, 0.25);
+
+  --form-btn-primary-hover-bg: #d68910;
+  --form-btn-primary-hover-shadow: 0 4px 10px
+    rgba(243, 156, 18, 0.35);
+
+  --form-btn-primary-active-bg: #b9770e;
+  --form-btn-primary-active-shadow: 0 2px 4px
+    rgba(243, 156, 18, 0.4);
+
+  --form-btn-disable-bg: #bdc3c7;
+  --form-btn-disable-fg: #7f8c8d;
+
+  --form-btn-edit-bg: #ffc107;
+  --form-btn-edit-fg: #000;
+  --form-btn-edit-hover-bg: #ffcb2d;
+  --form-btn-edit-active-bg: #e0a800;
+
+  --form-btn-save-bg: #198754;
+  --form-btn-save-fg: #fff;
+  --form-btn-save-hover-bg: #0f7043;
+  --form-btn-save-active-bg: #0c5a36;
+  --form-btn-save-disable-bg: #bcc0c4;
+
+  --form-btn-cancel-bg: #6c757d;
+  --form-btn-cancel-fg: #fff;
+  --form-btn-cancel-hover-bg: #5a5b5c;
+  --form-btn-cancel-active-bg: #494a4b;
+
+  --form-btn-delete-bg: #dc3545;
+  --form-btn-delete-fg: #fff;
+  --form-btn-delete-hover-bg: #b32937;
+  --form-btn-delete-active-bg: #941d29;
+
+  --form-btn-pw-bg: #0d6efd;
+  --form-btn-pw-fg: #fff;
+  --form-btn-pw-hover-bg: #095cd8;
+  --form-btn-pw-active-bg: #0648ad;
+
+  --form-btn-google-bg: #db4437;
+  --form-btn-google-fg: #fff;
+  --form-btn-google-hover-bg: #c33d30;
+  --form-btn-google-active-bg: #a83227;
+
+  --form-btn-facebook-bg: #1877f2;
+  --form-btn-facebook-fg: #fff;
+  --form-btn-facebook-hover-bg: #166fe5;
+  --form-btn-facebook-active-bg: #0f5bc1;
+
+  /* ===== Inputs ===== */
+  --form-ip-bg: #f9fbfd;
+  --form-ip-fg: #1a2e40;
+  --form-ip-bd: #dfe4ea;
+
+  --form-ip-focus-bg: #fff;
+  --form-ip-focus-fg: #1a2e40;
+  --form-ip-focus-bd: #f39c12;
+
+  --form-ip-disable-bd: #dfe4ea;
+
+  /* ===== Links ===== */
+  --form-link-fg: #3498db;
+  --form-link-hover-fg: #2176bd;
+  --form-link-active-fg: #185a99;
+}
+
+/* ================= DARK THEME ================= */
+.dark {
+  /* ===== Base ===== */
+  --form-bg: #1f261f;
+  --form-fg: #d5d8dc;
+  --form-bd: #3c4b3c;
+  --form-shadow: 0 4px 12px rgba(31, 38, 31, 0.8);
+
+  /* ===== Buttons ===== */
+  --form-btn-primary-bg: #27ae60;
+  --form-btn-primary-fg: #fff;
+  --form-btn-primary-shadow: 0 2px 6px
+    rgba(39, 174, 96, 0.8);
+
+  --form-btn-primary-hover-bg: #219150;
+  --form-btn-primary-hover-shadow: 0 4px 10px
+    rgba(33, 145, 80, 0.8);
+
+  --form-btn-primary-active-bg: #1b7c42;
+  --form-btn-primary-active-shadow: 0 2px 4px
+    rgba(27, 124, 66, 0.8);
+
+  --form-btn-disable-bg: #7f8c8d;
+  --form-btn-disable-fg: #aeb6bf;
+
+  --form-btn-edit-bg: #ffc107;
+  --form-btn-edit-fg: #000;
+  --form-btn-edit-hover-bg: #ffcb2d;
+  --form-btn-edit-active-bg: #e0a800;
+
+  --form-btn-save-bg: #198754;
+  --form-btn-save-fg: #fff;
+  --form-btn-save-hover-bg: #0f7043;
+  --form-btn-save-active-bg: #0c5a36;
+
+  --form-btn-cancel-bg: #6c757d;
+  --form-btn-cancel-fg: #fff;
+  --form-btn-cancel-hover-bg: #5a5b5c;
+  --form-btn-cancel-active-bg: #494a4b;
+
+  --form-btn-delete-bg: #dc3545;
+  --form-btn-delete-fg: #fff;
+  --form-btn-delete-hover-bg: #b32937;
+  --form-btn-delete-active-bg: #941d29;
+
+  --form-btn-pw-bg: #0d6efd;
+  --form-btn-pw-fg: #fff;
+  --form-btn-pw-hover-bg: #095cd8;
+  --form-btn-pw-active-bg: #0648ad;
+
+  --form-btn-google-bg: #db4437;
+  --form-btn-google-fg: #fff;
+  --form-btn-google-hover-bg: #c33d30;
+  --form-btn-google-active-bg: #a83227;
+
+  --form-btn-facebook-bg: #1877f2;
+  --form-btn-facebook-fg: #fff;
+  --form-btn-facebook-hover-bg: #166fe5;
+  --form-btn-facebook-active-bg: #0f5bc1;
+
+  /* ===== Inputs ===== */
+  --form-ip-bg: #2e3c2e;
+  --form-ip-fg: #d5d8dc;
+  --form-ip-bd: #3c4b3c;
+
+  --form-ip-focus-bg: #232f23;
+  --form-ip-focus-fg: #fff;
+  --form-ip-focus-bd: #27ae60;
+
+  --form-ip-disable-bd: #3c4b3c;
+
+  /* ===== Links ===== */
+  --form-link-fg: #27ae60;
+  --form-link-hover-fg: #2ecc71;
+  --form-link-active-fg: #1e8449;
+}

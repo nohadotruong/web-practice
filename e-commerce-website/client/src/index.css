@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+@import "tailwindcss";
+
+:root {
+  font-family: "Libertinus Sans", sans-serif;
+  font-size: 16px;
+
+  --border: #000;
+
+  --header-bg: #000000;
+  --header-fg: #ffd700;
+  --header-btn-bg-hover: #ffd700;
+  --header-btn-fg-hover: #000;
+
+  --body-bg: #fafafa;
+  --body-fg: #000;
+
+  --footer-bg: #ffd700;
+  --footer-fg: #000;
+}
+
+* {
+  /* border: 1px solid red; */
+}

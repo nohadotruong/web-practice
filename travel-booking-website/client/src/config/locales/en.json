@@ -1,0 +1,123 @@
+{
+  "commons": {
+    "loading": "Loading...",
+    "totop": "Scroll to top"
+  },
+
+  "authform": {
+    "return": "Return home",
+    "welcometo": "Welcome to",
+    "welcomeback": "Welcome back",
+    "email": "Email",
+    "username": "Username",
+    "fullname": "Fullname",
+    "phone": "Phone",
+    "password": "Password",
+    "confirm": "Confirm password",
+    "forgot": "Forgot password?",
+    "signup": "Sign up",
+    "signin": "Sign in",
+    "already": "Already have account?",
+    "noaccount": "Don't have an account yet?",
+    "or": "or sign in with",
+    "google": "Sign in with Google",
+    "facebook": "Sign in with Facebook"
+  },
+
+  "header": {
+    "signup": "Sign up",
+    "signin": "Sign in",
+    "account": "Manage account",
+    "settings": "Settings"
+  },
+
+  "accountmenu": {
+    "account": "Account",
+    "signup": "Sign up",
+    "signin": "Sign in",
+    "tours": "Tours",
+    "saved": "Saved",
+    "booking": "Booking",
+    "accountmanage": "Manage account",
+    "profile": "Personal details",
+    "security": "Security settings",
+    "signout": "Sign out",
+    "close": "Close"
+  },
+
+  "sidemenu": {
+    "category": "Categories",
+    "home": "Home",
+    "tour": "Tours",
+    "stay": "Accommodation",
+    "airplane": "Flights",
+    "car": "Car Rental",
+    "activity": "Activities",
+    "settings": "Settings",
+    "language": "Tiếng Việt",
+    "theme": "Switch theme",
+    "info": "Information",
+    "about": "About TripGo",
+    "privacy": "Privacy & cookies",
+    "term": "Term and conditions",
+    "close": "Close"
+  },
+
+  "searchbar": {
+    "allslogan": "Search, Plan, Travel with TripGO!",
+    "tourslogan": "Explore with TripGO!",
+    "stayslogan": "Stay your way with TripGO!",
+    "airplaneslogan": "Fly with TripGO!",
+    "carslogan": "Drive your trip with TripGO!",
+    "activityslogan": "Do more with TripGO!",
+
+    "alllocation": "Where do you want to go?",
+    "tourlocation": "Which destination are you exploring?",
+    "staylocation": "Where do you want to stay?",
+    "activitylocation": "Activity location?",
+    "pickuplocation": "Where will you pick up the car?",
+    "from": "Flying from",
+    "to": "Flying to",
+
+    "checkin": "Check-in",
+    "checkout": "Check-out",
+    "pickupdate": "Pick-up Date",
+    "date": "Date",
+    "departuredate": "Departure date",
+    "returndate": "Return date",
+    "startdate": "Start date",
+    "enddate": "End date",
+
+    "allplaceholder": "Ex: Hanoi, Vietnam",
+    "tourplaceholder": "Ex: Ha Long Bay",
+    "stayplaceholder": "Ex: Da Nang, Vietnam",
+    "activityplaceholder": "Ex: Ho Chi Minh City",
+    "pickupplaceholder": "Ex: Tan Son Nhat Airport",
+    "fromplaceholder": "Ex: Hanoi",
+    "toplaceholder": "Ex: Bangkok",
+
+    "search": "Search",
+    "or": "Or search by category",
+    "all": "All",
+    "tour": "Tours",
+    "stay": "Accommodation",
+    "airplane": "Flights",
+    "car": "Car Rental",
+    "activity": "Activities"
+  },
+
+  "profile": {
+    "email": "Email",
+    "username": "Username",
+    "fullname": "Fullname",
+    "phone": "Phone",
+    "password": "Password",
+    "confirm": "Confirm password",
+    "forgot": "Forgot password?",
+    "edit": "Edit Information",
+    "save": "Save",
+    "cancel": "Cancel",
+    "changepassword": "Change Password",
+    "deleteaccount": "Delete Account"
+  }
+}

@@ -1,0 +1,37 @@
+:root {
+  --blue-logo: #21425d;
+  --yellow-logo: #e1c461;
+
+  --s-header-fg: #e1c461;
+  --s-header-bd: #e1c461;
+
+  --s-header-ip-bg: #ffffff89;
+  --s-header-ip-fg: #21425d;
+  --s-header-ip-placeholder: #8fa4b7;
+  --s-header-ip-bd: #21425d;
+
+  --s-header-ip-focus-bg: #fdfcf9;
+  --s-header-ip-focus-bd: #e1c461;
+
+  --s-header-btn-bg: #e1c461;
+  --s-header-btn-fg: #21425d;
+  --s-header-btn-bd: #21425d;
+
+  --s-header-btn-hover-bg: #f4d982;
+  --s-header-btn-hover-fg: #21425d;
+
+  --s-header-btn-active-bg: #bfa14d;
+
+  --s-header-btn-disable-bg: #d3d3d3;
+  --s-header-btn-disable-fg: #888888;
+
+  --s-header-link-fg: #e1c461;
+  --s-header-link-hover: #fce6a1;
+  --s-header-link-active: #e1c461;
+}
+
+.bg-glass {
+  background: rgba(33, 66, 93, 0.752);
+  backdrop-filter: blur(10px) saturate(150%);
+  -webkit-backdrop-filter: blur(10px) saturate(150%);
+}

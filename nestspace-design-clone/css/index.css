@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-size: 18px;
+  /* border: 1px solid red; */
+}
+
+.bi {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  padding-top: 110px;
+}
+
+.header__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 110px;
+  z-index: 99;
+  border-bottom: 1px solid black;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.shrink {
+  height: 100px;
+}
+
+.scroll__btn {
+  position: fixed;
+  top: 25px;
+  left: 30px;
+  padding: 3px;
+  padding: 5px 20px;
+  border: 3px solid white;
+  background-color: #a8a6a1;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  text-decoration: underline;
+  outline: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.scroll__btn:focus {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.logo__img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+.open-menu__btn {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  bottom: 0;
+  padding: 0px 15px;
+  border: none;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.open-menu__btn:hover {
+  background-color: #a8a6a1;
+}
+
+.sub-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  background-color: #a8a6a1;
+  transition: all 0.3s ease-in-out;
+}
+
+.sub-menu.active {
+  opacity: 1;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.close-menu__btn {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  bottom: 0;
+  padding: 0px 10px;
+  border: none;
+  background-color: #a8a6a1;
+  transition: all 0.3s ease-in-out;
+}
+
+.close-menu__btn:hover {
+  background-color: #a8a6a1;
+}
+
+.sub-menu__content {
+  width: 100%;
+  min-height: 300px;
+  overflow-y: auto;
+}
+
+.sub-menu__content a {
+  font-size: 25px;
+}
+
+.sub-menu__content a:hover {
+  text-decoration: underline;
+}
+
+.slide__section div div div img {
+  height: 690px;
+  object-fit: cover;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item img {
+  z-index: 98;
+  height: 690px;
+  object-fit: cover;
+}
+
+.carousel-item .slide-link__btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 99px;
+  width: 20%;
+  min-width: 250px;
+  cursor: pointer;
+  padding: 5px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel-item .slide-link__btn a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+}
+
+.carousel-item .slide-link__btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.custom-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  z-index: 9;
+  opacity: 1 !important;
+  background-color: rgba(183, 183, 183, 0.7);
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-control i {
+  font-size: 25px;
+  color: white;
+}
+
+.carousel-control-prev.custom-control {
+  left: 50px;
+}
+
+.carousel-control-next.custom-control {
+  right: 50px;
+}
+
+.custom-control:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.paragraph__section {
+  text-align: center;
+  width: 50%;
+  margin: 80px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.project__section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+  width: 70%;
+  margin: 80px auto 0px auto;
+  overflow: hidden;
+}
+
+.project__item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project__image {
+  width: 55%;
+}
+
+.project__title {
+  width: 45%;
+  padding: 40px 20px;
+}
+
+.project__image img {
+  width: 100%;
+}
+
+#project__1 .project__title,
+#project__3 .project__title {
+  order: -1;
+}
+
+.project__title button {
+  padding: 5px 15px;
+  border: none;
+  background-color: #a8a6a1;
+  transition: all 0.3s ease-in-out;
+}
+
+.project__title button a {
+  color: white;
+}
+
+.project__title button:hover {
+  background-color: #d1cfc9;
+}
+
+.view-all__link {
+  margin-top: 50px;
+}
+
+.view-all__link a {
+  font-size: 25px;
+  color: #a8a6a1;
+  transition: all 0.3s ease-in-out;
+  text-decoration: underline;
+}
+
+.view-all__link a:hover {
+  color: #6a6a6a;
+}
+
+.contact__section {
+  margin-top: 80px;
+  width: 100%;
+  position: relative;
+}
+
+.contact__bg img {
+  width: 100%;
+  height: 430px;
+  object-fit: cover;
+  object-position: auto 60%;
+}
+
+.contact__fg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.contact__fg h2 {
+  text-shadow: 5px 5px 10px #000;
+}
+
+.contact__fg button {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  border-radius: 99px;
+  cursor: pointer;
+  padding: 5px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact__fg button a {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.contact__fg button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+footer nav a {
+  color: #a8a6a1;
+  transition: all 0.3s ease-in-out;
+  text-decoration: underline;
+}
+
+footer nav a:hover {
+  color: #6a6a6a;
+}
+
+@media (max-width: 1400px) {
+  header {
+    height: 80px;
+  }
+
+  body {
+    padding-top: 80px;
+  }
+
+  .shrink {
+    height: 70px;
+  }
+}
+
+@media (max-width: 600px) {
+  .custom-control {
+    position: absolute;
+    top: auto;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .carousel-control-prev.custom-control {
+    left: 30%;
+  }
+
+  .carousel-control-next.custom-control {
+    right: 30%;
+  }
+}
+
+@media (max-width: 770px) {
+  .paragraph__section,
+  .project__section {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .project__item {
+    display: block;
+  }
+
+  .project__image,
+  .project__title {
+    width: 100%;
+  }
+}

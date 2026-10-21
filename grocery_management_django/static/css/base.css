@@ -1,0 +1,45 @@
+/* Đảm bảo các card luôn có độ cao bằng nhau và bo góc hiện đại */
+.dashboard-card {
+  border-radius: 16px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Tạo hình khối cho Icon tròn trịa và cân đối */
+.icon-shape {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+/* Màu nền nhẹ (soft colors) cho icon */
+.bg-soft-primary {
+  background-color: #e7f1ff;
+}
+.bg-soft-success {
+  background-color: #e1f7ed;
+}
+.bg-soft-warning {
+  background-color: #fff4e5;
+}
+
+/* Cân đối khoảng cách dòng cho text */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Đẩy button xuống đáy card */
+}
+
+/* Đảm bảo tiêu đề không bị nhảy dòng làm lệch card */
+.card-title {
+  min-height: 24px;
+}

@@ -1,0 +1,47 @@
+* {
+}
+
+.um-wrapper {
+  background-color: white;
+}
+
+.tab-bar {
+  display: flex;
+  border-bottom: 1px solid #dddddd;
+  position: relative;
+}
+
+.tab-btn {
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-bottom: none;
+  background-color: white;
+  padding: 5px 10px;
+  color: #337ab7;
+  font-weight: 500;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0px 1px;
+}
+
+.tab-btn.active {
+  border: 1px solid #dddddd;
+  border-bottom: 1px solid white;
+  color: black;
+  font-weight: normal;
+  z-index: 2;
+  position: relative;
+  margin-bottom: -1px;
+}
+
+.um-content {
+  overflow: auto;
+}
+
+.um-content table {
+  min-width: 700px;
+}
+
+.um-content table tbody td i {
+  cursor: pointer;
+}

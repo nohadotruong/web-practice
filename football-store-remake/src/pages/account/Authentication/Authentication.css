@@ -1,0 +1,39 @@
+.authentication__container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../../assets/LoginImg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.authentication__container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.authentication__content {
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+  box-shadow: 3px 3px 10px #0000007e;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1c1c1c;
+}
+
+.header__content img {
+  height: 100px;
+  cursor: pointer;
+}

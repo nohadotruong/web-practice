@@ -1,0 +1,163 @@
+* {
+  /* border: 1px solid black; */
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  font-size: 30px;
+  color: white;
+  background-color: #2b3643;
+  padding-right: 30px;
+}
+
+.header-left {
+  width: 250px;
+  padding: 5px 0px;
+}
+
+.header-left img {
+  width: 30px;
+}
+
+.header-right {
+  margin-left: auto;
+}
+
+.header-right .account {
+  position: relative;
+  z-index: 10;
+}
+
+.header-right .account .acc-btn {
+  background-color: #2b3643;
+  display: flex;
+  align-items: center;
+  border: none;
+  color: #828f9f;
+  padding: 0px 10px;
+  text-transform: uppercase;
+  height: 100%;
+}
+
+.header-right .account .acc-btn img {
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.header-right .account .acc-btn p {
+  margin: 0;
+  /* height: 100%; */
+  display: flex;
+  align-items: center;
+}
+
+.header-right .account .acc-btn i {
+  margin: 5px;
+  font-size: 25px;
+}
+
+.header-right .account .acc-btn:hover {
+  background-color: rgb(62, 75, 93);
+}
+
+@media (max-width: 595px) {
+  .header-right .account .acc-btn p {
+    display: none;
+  }
+}
+
+.header-right .account .acc-menu {
+  display: none;
+  position: absolute;
+  height: fit-content;
+  width: 200px;
+  right: 0px;
+  top: calc(100% + 1px);
+  font-size: 14px;
+  background-color: white;
+  box-shadow: 5px 5px 10px 0px rgb(0, 0, 0);
+}
+
+.header-right .account .acc-menu .acc-ava {
+  /* height: 100px; */
+  background-color: #1c232c;
+  padding: 20px;
+}
+
+.header-right .account .acc-menu .acc-ava img {
+  height: 80px;
+  border-radius: 50%;
+}
+
+.header-right .account .acc-menu button:hover {
+  background-color: rgb(194, 194, 194);
+}
+
+.header-right .account .acc-menu hr {
+  height: 3px;
+  color: rgb(163, 163, 163);
+  margin: 0;
+}
+
+.header-right .menu-btn,
+.header-left .menu-btn {
+  background-color: #2b3643;
+  padding: 0px 10px;
+  border: none;
+  color: #828f9f;
+  width: 50px;
+}
+
+.header-right button:hover,
+.header-left button:hover {
+  color: rgb(194, 194, 194);
+}
+
+#left-menu-btn {
+  display: flex;
+  margin-left: auto;
+}
+
+#right-menu-btn {
+  display: none;
+}
+
+.header-right .menu-btn i,
+.header-left .menu-btn i {
+  font-size: 25px;
+}
+
+@media (max-width: 991.5px) {
+  .header {
+    padding-right: 5px;
+  }
+
+  #left-menu-btn {
+    display: none;
+  }
+
+  #right-menu-btn {
+    display: flex;
+  }
+}
+
+.acc-menu button {
+  width: 100%;
+  border: none;
+  padding: 2px 5px;
+  margin: 5px 0px;
+  background-color: white;
+  display: flex;
+  text-align: left;
+}
+
+.acc-menu button i {
+  margin-right: 5px;
+}
+
+.acc-menu button:hover {
+  background-color: rgb(216, 216, 216);
+  color: black;
+}

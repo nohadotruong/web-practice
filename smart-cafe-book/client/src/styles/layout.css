@@ -1,0 +1,36 @@
+:root {
+  --header-bg: var(--medium-black-color);
+  --header-2-bg: var(--dark-brown-color);
+  --header-3-bg: var(--light-black-color);
+  --header-fg: var(--white-color);
+
+  --header-btn-fg: var(--white-color);
+  --header-btn-hover-bg: var(--light-black-color);
+  --header-btn-active-bg: var(--black-color);
+
+  --header-btn-2-hover-bg: var(--medium-brown-color);
+  --header-btn-2-active-bg: var(--light-black-color);
+
+  --header-btn-3-hover-bg: var(--dark-gray-color);
+  --header-btn-3-active-bg: var(--light-brown-color);
+
+  --header-smenu-bg: var(--light-brown-color);
+  --header-smenu-fg: var(--black-color);
+  --header-smenu-bd: var(--medium-brown-color);
+
+  --hsmenu-btn-fg: var(--white-color);
+  --hsmenu-btn-hover-bg: var(--medium-brown-color);
+  --hsmenu-btn-hover-bd: var(--dark-brown-color);
+  --hsmenu-btn-active-bg: var(--dark-brown-color);
+
+  --footer-bg: var(--medium-black-color);
+  --footer-fg: var(--black-color);
+
+  --footer-btn-bg: var(--medium-brown-color);
+  --footer-btn-fg: var(--medium-black-color);
+  --footer-btn-hover-bg: var(--light-brown-color);
+  --footer-btn-active-bg: var(--dark-brown-color);
+  --footer-btn-active-fg: var(--white-color);
+
+  --toast-bg: var(--white-color);
+}

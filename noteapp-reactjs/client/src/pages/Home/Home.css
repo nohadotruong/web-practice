@@ -1,0 +1,30 @@
+* {
+  /* border: 1px solid black; */
+}
+
+body {
+  background-color: #dedede;
+}
+
+.app__container {
+  position: relative;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.app__header h1 {
+  text-transform: uppercase;
+}
+
+.add__button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.add__button button {
+  font-size: 70px;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}

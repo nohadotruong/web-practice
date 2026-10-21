@@ -1,0 +1,29 @@
+.user-list__container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* border-top-right-radius: 10px; */
+}
+
+.user-list__section {
+  overflow: auto;
+}
+
+.user-list {
+  min-width: 400px;
+}
+
+.user-list__section .user-list thead tr th select {
+  border-radius: 10px;
+  /* padding: 5px; */
+  border: none;
+  text-align: center;
+}
+
+.user-list__section .user-list tbody tr td button {
+  margin: 2px;
+}

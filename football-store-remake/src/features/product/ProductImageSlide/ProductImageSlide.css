@@ -1,0 +1,45 @@
+.product__image {
+  height: 500px;
+  position: relative;
+  background-color: #0a0a0a;
+}
+
+.image__section {
+  height: 100%;
+}
+
+.image__section img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.button__section {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.button__section button {
+  height: fit-content;
+  border: none;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(115, 115, 115, 0.4);
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.button__section button:hover {
+  color: #ceff00;
+}
+
+.button__section button i {
+  font-size: 30px;
+}

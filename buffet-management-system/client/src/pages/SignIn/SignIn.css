@@ -1,0 +1,61 @@
+* {
+  /* border: 1px solid black; */
+}
+
+.login__container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.login__section {
+  border-radius: 20px;
+  box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.39);
+  background-color: var(--fg);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+.input__section input {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--input_bd);
+  background-color: var(--input_bg);
+  color: var(--input_text);
+  transition: border 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.input__section input:focus {
+  border: 1px solid var(--input_bd_focus);
+  background-color: var(--input_bg_focus);
+}
+
+.invalid__alert {
+  color: red;
+  text-align: right;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.sign-in__button {
+  background-color: var(--button);
+  color: var(--button_text);
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  transition: border 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.sign-in__button:hover {
+  background-color: var(--button_hover);
+  color: var(--button_text_hover);
+}

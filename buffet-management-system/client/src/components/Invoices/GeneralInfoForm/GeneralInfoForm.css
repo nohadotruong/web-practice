@@ -1,0 +1,27 @@
+.general-info__section {
+  background-color: var(--fg);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.general-info__section .input__section label {
+  font-weight: 500;
+}
+
+.general-info__section .input__section textarea {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--input_bd);
+  background-color: var(--input_bg);
+  color: var(--input_text);
+  transition: border 0.3s ease;
+  transition: background-color 0.3s ease;
+  resize: none;
+}
+
+.general-info__section .input__section input:focus,
+.general-info__section .input__section textarea:focus {
+  border: 1px solid var(--input_bd_focus);
+  background-color: var(--input_bg_focus);
+}

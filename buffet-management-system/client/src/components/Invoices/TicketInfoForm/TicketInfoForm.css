@@ -1,0 +1,31 @@
+.ticket-info__section {
+  background-color: var(--fg);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.ticket-info__item {
+  border-top: 1px solid black;
+}
+
+.ticket-info__item .input__section label {
+  font-weight: 500;
+}
+
+.ticket-info__item .input__section input,
+.ticket-info__item .input__section select {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--input_bd);
+  background-color: var(--input_bg);
+  color: var(--input_text);
+  transition: border 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.ticket-info__item .input__section input:focus,
+.ticket-info__item .input__section select:focus {
+  border: 1px solid var(--input_bd_focus);
+  background-color: var(--input_bg_focus);
+}

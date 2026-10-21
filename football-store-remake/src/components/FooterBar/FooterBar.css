@@ -1,0 +1,11 @@
+.footer {
+  background-color: #1a1a1a;
+  color: #aaaaaa;
+  padding: 5px;
+  /* border-top: 1px solid #aaaaaa; */
+  height: 50px;
+}
+
+.footer i {
+  font-size: 14px;
+}

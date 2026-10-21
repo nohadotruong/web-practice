@@ -1,0 +1,167 @@
+/* ================= LIGHT THEME ================= */
+:root {
+  /* ================= Header ================= */
+  --header-bg: #ffffff;
+  --header-fg: #1a2e40;
+  --header-bd: #e6e9ed;
+  --header-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+
+  --header-btn-bg: #ffffff;
+  --header-btn-fg: #1a2e40;
+  --header-btn-bd: #1a2e40;
+  --header-btn-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+
+  --header-btn-hover-bg: #f39c12;
+  --header-btn-hover-fg: #ffffff;
+  --header-btn-hover-bd: #f39c12;
+  --header-btn-hover-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+
+  /* ================= Body ================= */
+  --body-bg: #e9edf2;
+  --body-fg: #1a2e40;
+
+  --body-item-bg: #ffffff;
+  --body-item-fg: #2c3e50;
+  --body-item-bd: #d9dde2;
+  --body-item-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+  --body-item-hover-bg: #fffaf5;
+  --body-item-hover-fg: #1a2e40;
+  --body-item-hover-bd: #f39c12;
+  --body-item-hover-shadow: 0 6px 16px
+    rgba(243, 156, 18, 0.25);
+
+  --body-item-disable-bg: #1a2e40;
+  --body-item-disable-fg: #777777;
+  --body-item-disable-bd: #d9dde2;
+
+  /* ================= Search Bar ================= */
+  --slogan: #f39c12;
+
+  --search-bar-bg: #fff;
+  --search-bar-fg: #1a2e40;
+  --search-bar-bd: #e6e9ed;
+  --search-bar-shadow: 0 5px 10px 6px rgba(0, 0, 0, 0.2);
+
+  --search-bar-btn-bg: #ffba4a;
+  --search-bar-btn-fg: #1a2e40;
+  --search-bar-btn-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+
+  --search-bar-btn-hover-bg: #f39c12;
+  --search-bar-btn-hover-shadow: 0 4px 10px
+    rgba(0, 0, 0, 0.2);
+
+  --search-bar-btn-active-bg: #2c3e50;
+  --search-bar-btn-active-shadow: 0 2px 4px
+    rgba(0, 0, 0, 0.25);
+
+  --search-bar-btn-disable-bg: #bdc3c7;
+  --search-bar-btn-disable-fg: #7f8c8d;
+
+  --search-bar-ip-bg: #f9fbfd;
+  --search-bar-ip-fg: #1a2e40;
+  --search-bar-ip-bd: #1a2e40;
+
+  --search-bar-ip-focus-bg: #ffffff;
+  --search-bar-ip-focus-fg: #1a2e40;
+  --search-bar-ip-focus-bd: #f39c12;
+
+  --cate-btn-bg: #fff;
+  --cate-btn-fg: #1a2e40;
+  --cate-btn-bd: #1a2e40;
+
+  --cate-btn-hover-bg: #fdc265;
+  --cate-btn-hover-fg: #1a2e40;
+  --cate-btn-hover-bd: #fdc265;
+
+  --cate-btn-active-bg: #f39c12;
+  --cate-btn-active-fg: #1a2e40;
+  --cate-btn-active-bd: #f39c12;
+
+  /* ================= Footer ================= */
+  --footer-bg: #1a2e40;
+  --footer-fg: #ecf0f1;
+}
+
+/* ================= DARK THEME ================= */
+.dark {
+  /* ================= Header ================= */
+  --header-bg: #1b2a1b;
+  --header-fg: #d5d8dc;
+  --header-bd: #3c4b3c;
+  --header-shadow: 0 0 18px rgba(27, 42, 27, 0.8);
+
+  --header-btn-bg: #2e3c2e;
+  --header-btn-fg: #d5d8dc;
+  --header-btn-bd: #4a5a4a;
+  --header-btn-shadow: 0 1px 3px rgba(46, 60, 46, 0.8);
+
+  --header-btn-hover-bg: #27ae60;
+  --header-btn-hover-fg: #ffffff;
+  --header-btn-hover-bd: #27ae60;
+  --header-btn-hover-shadow: 0 2px 6px
+    rgba(39, 174, 96, 0.8);
+
+  /* ================= Body ================= */
+  --body-bg: #141814;
+  --body-fg: #d5d8dc;
+
+  --body-item-bg: #1e241e;
+  --body-item-fg: #d5d8dc;
+  --body-item-bd: #2a322a;
+  --body-item-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+
+  --body-item-hover-bg: #2b372b;
+  --body-item-hover-fg: #ffffff;
+  --body-item-hover-bd: #27ae60;
+  --body-item-hover-shadow: 0 4px 12px
+    rgba(39, 174, 96, 0.3);
+
+  /* ================= Search Bar ================= */
+  --slogan: #27ae60;
+
+  --search-bar-bg: #232f23;
+  --search-bar-fg: #d5d8dc;
+  --search-bar-bd: #3c4b3c;
+  --search-bar-shadow: 0 5px 10px 6px rgba(0, 0, 0, 0.3);
+
+  --search-bar-btn-bg: #27ae60;
+  --search-bar-btn-fg: #ffffff;
+  --search-bar-btn-shadow: 0 2px 6px rgba(39, 174, 96, 0.6);
+
+  --search-bar-btn-hover-bg: #219150;
+  --search-bar-btn-hover-shadow: 0 4px 10px
+    rgba(33, 145, 80, 0.6);
+
+  --search-bar-btn-active-bg: #1b7c42;
+  --search-bar-btn-active-shadow: 0 2px 4px
+    rgba(27, 124, 66, 0.6);
+
+  --search-bar-btn-disable-bg: #7f8c8d;
+  --search-bar-btn-disable-fg: #aeb6bf;
+
+  --search-bar-ip-bg: #2e3c2e;
+  --search-bar-ip-fg: #d5d8dc;
+  --search-bar-ip-bd: #3c4b3c;
+
+  --search-bar-ip-focus-bg: #232f23;
+  --search-bar-ip-focus-fg: #ffffff;
+  --search-bar-ip-focus-bd: #27ae60;
+
+  --cate-btn-bg: #232f23;
+  --cate-btn-fg: #27ae60;
+  --cate-btn-bd: #3c4b3c;
+
+  --cate-btn-hover-bg: #219150;
+  --cate-btn-hover-fg: #ffffff;
+  --cate-btn-hover-bd: #127e3f;
+
+  --cate-btn-active-bg: #27ae60;
+  --cate-btn-active-fg: #ffffff;
+  --cate-btn-active-bd: #27ae60;
+
+  /* ================= Footer ================= */
+  --footer-bg: #1e241e;
+  --footer-fg: #d5d8dc;
+  --footer-shadow: 0 0 12px rgba(30, 36, 30, 0.8);
+}

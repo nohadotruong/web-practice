@@ -1,0 +1,31 @@
+:root {
+  --auth-bg: var(--white-color);
+
+  --form-bg: var(--light-gray-color);
+  --form-bd: var(--dark-gray-color);
+
+  --ip-bg: var(--medium-gray-color);
+  --ip-fg: var(--black-color);
+  --ip-bd: var(--dark-gray-color);
+
+  --ip-focus-bg: var(--white-color);
+  --ip-focus-bd: var(--black-color);
+  --ip-error-bd: #ff0000;
+
+  --form-primary-btn-bg: var(--medium-black-color);
+  --form-primary-btn-fg: var(--white-color);
+  --form-primary-btn-hover-bg: var(--dark-brown-color);
+  --form-primary-btn-active-bg: var(--light-black-color);
+
+  --form-secondary-btn-bg: var(--light-brown-color);
+  --form-secondary-btn-fg: var(--black-color);
+  --form-secondary-btn-hover-bg: var(--medium-brown-color);
+  --form-secondary-btn-active-bg: var(--dark-gray-color);
+
+  --form-third-btn-bg: var(--dark-brown-color);
+  --form-third-btn-fg: var(--white-color);
+  --form-third-btn-hover-bg: var(--medium-brown-color);
+  --form-third-btn-active-bg: var(--medium-black-color);
+
+  --disable-btn-bg: var(--dark-gray-color);
+}

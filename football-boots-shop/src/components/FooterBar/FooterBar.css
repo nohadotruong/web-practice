@@ -1,0 +1,24 @@
+.footer-container {
+  background-color: #1c1c1c;
+  height: 10vh;
+  color: #6a6a6a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container .footer-social i {
+  font-size: 20px;
+  margin: 0px 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-container .footer-social i:hover {
+  color: #ceff00;
+}
+
+.footer-container .footer-text {
+  color: #6a6a6a;
+}

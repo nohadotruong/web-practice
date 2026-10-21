@@ -1,0 +1,33 @@
+* {
+  /* border: 1px solid black; */
+}
+
+.invoice-form__container {
+  position: fixed;
+  background-color: var(--bg_opacity);
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.check-in-form__section {
+  background-color: var(--bg);
+  border-radius: 10px;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  min-height: 300px;
+  max-height: 90%;
+}
+
+.check-in-form__section form {
+  overflow: auto;
+}
